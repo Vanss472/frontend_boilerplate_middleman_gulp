@@ -36,6 +36,14 @@ $ bundle exec middleman server
 $ bundle exec middleman build
 ```
 
+## Deploy
+
+* Deploy site to Github Pages
+
+```bash
+$ bundle exec middleman deploy
+```
+
 ## Lint ES6
 
 #### Require

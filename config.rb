@@ -65,3 +65,8 @@ configure :build do
     source: "build",
     latency: 1
 end
+
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  deploy.build_before = true
+end
