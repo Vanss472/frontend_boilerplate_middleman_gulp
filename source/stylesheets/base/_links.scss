@@ -1,0 +1,9 @@
+a {
+  transition: all $transition-duration-default $transition-easing-default;
+  color: rgba($color-night-rider, 0.9);
+
+  &:focus,
+  &:hover {
+    color: rgba($color-night-rider, 0.6);
+  }
+}

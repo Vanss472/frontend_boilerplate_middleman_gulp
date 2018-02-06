@@ -1,0 +1,23 @@
+.main-header {
+  .grid-container {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    a {
+      display: block;
+    }
+
+    svg {
+      width: 100px;
+      height: 54px;
+
+      path {
+        fill: #00A4E4;
+      }
+    }
+  }
+}

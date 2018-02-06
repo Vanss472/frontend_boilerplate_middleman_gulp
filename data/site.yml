@@ -1,0 +1,6 @@
+language: "en-us"
+name: "Site Name"
+url: "https://example.com"
+human_url: "example.com"
+title: "Site Title"
+description: "Site Description"

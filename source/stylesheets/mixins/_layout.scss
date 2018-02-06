@@ -1,0 +1,9 @@
+@mixin max-width {
+  max-width: 1440px;
+  @include margin(null auto);
+}
+
+.grid-container {
+  @include max-width;
+  @include padding(null percentage(1/32));
+}

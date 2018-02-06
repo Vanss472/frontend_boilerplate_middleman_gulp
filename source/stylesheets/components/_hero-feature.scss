@@ -1,0 +1,55 @@
+.hero-feature {
+  background-color: $color-white-smoke;
+  @include padding(rem(30) null rem(56));
+
+  .hero-feature-inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: $color-white;
+    @include padding(rem(30) rem(20));
+
+    @include mq($bp580) {
+      flex-direction: row;
+    }
+  }
+
+  .image-caption {
+    width: 100%;
+
+    @include mq($bp580) {
+      width: percentage(5/30);
+    }
+
+    .image {
+      @include aspect-ratio(percentage(3/2));
+      @include background-cover();
+    }
+
+    h3 {
+      text-transform: capitalize;
+    }
+  }
+
+  .text {
+    width: 100%;
+
+    @include mq($bp580) {
+      width: percentage(25/30);
+      @include padding(null percentage(1/30));
+    }
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      &::after {
+        content: '\00A0\003e';
+        display: inline-block;
+      }
+    }
+  }
+}
