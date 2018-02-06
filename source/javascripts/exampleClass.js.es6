@@ -10,4 +10,4 @@ console.log(squares);
 const fn = (name) => {
   console.log('Hello ' + name + '!');
 }
-fn('VMC');
+fn('Guest');
