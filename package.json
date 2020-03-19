@@ -20,11 +20,11 @@
     "del": "^3.0.0",
     "eslint": "^3.19.0",
     "eslint-plugin-react": "^7.5.1",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-babel": "^7.0.0",
     "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^4.0.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-jsmin": "^0.1.5",
     "gulp-sass": "^3.1.0"
   },
